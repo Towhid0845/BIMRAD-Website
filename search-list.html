@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport"
+    content="width=device-width, content=user-scalable=yes, initial-scale=1.0, maximum-scale=5, minimum-scale=1.0">
+  <title>BIMRAD</title>
+  <!-- Css file start -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/fonts.css">
+  <link rel="stylesheet" href="icons/bootstrap-icons-1.9.1/bootstrap-icons.css">
+  <link rel="stylesheet" href="css/slick.css">
+  <link rel="stylesheet" href="css/animate.min.css">
+  <link rel="stylesheet" href="css/magnific-popup.css">
+  <link rel="stylesheet" href="css/pignose.calendar.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <!-- Css file end -->
+</head>
+
+<body>
+
+  <!-- navbar part start -->
+  <nav class="navbar navbar-expand-lg sticky-top d-none d-xl-block">
+    <div class="container-fluid position-relative">
+      <a class="navbar-brand" href="#">
+        <img src="images/logo.png" alt="logo" width="90" class="position-absolute top-0 start-0">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About Us <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li>
+                <a href="">About BIMRAD</a>
+              </li>
+              <li>
+                <a href="">Research & Management Team <i class="bi bi-chevron-right float-end"></i></a>
+                <ul>
+                  <li>
+                    <a href="">Management Team</a>
+                  </li>
+                  <li>
+                    <a href="">Researcher</a>
+                  </li>
+                  <li>
+                    <a href="">Advisor</a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a href="">Messages <i class="bi bi-chevron-right float-end"></i></a>
+                <ul>
+                  <li>
+                    <a href="">Chief Patron</a>
+                  </li>
+                  <li>
+                    <a href="">Acting Chairman</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Research <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li>
+                <a href="">Management Team</a>
+              </li>
+              <li>
+                <a href="">Researcher</a>
+              </li>
+              <li>
+                <a href="">Advisor</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Events <i class="bi bi-chevron-down"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Facilities <i class="bi bi-chevron-down"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Gallery <i class="bi bi-chevron-down"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Partnership <i class="bi bi-chevron-down"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Publications <i class="bi bi-chevron-down"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Library <i class="bi bi-chevron-down"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Membership <i class="bi bi-chevron-down"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact <i class="bi bi-chevron-down"></i></a>
+          </li>
+        </ul>
+        <ul class="navbar-action ms-4">
+          <li class="search">
+            <i class="bi bi-search"></i>
+          </li>
+          <li>
+            <a class="mail" href=""><i class="bi bi-envelope-paper-fill"></i> Webmail</a>
+          </li>
+        </ul>
+        <div class="search-option">
+          <form action="">
+            <div class="input-groups position-relative">
+              <input type="text" placeholder="Search your keyword..." class="w-100">
+              <button type="submit" class="position-absolute"><i class="bi bi-search"></i></button>
+              <div class="close-search">
+                <i class="bi bi-x-lg"></i>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- navbar part end -->
+  <!-- ========================= -->
+  <!-- mobile menu ta add kore nen -->
+  <!-- ========================= -->
+  <!-- mobile menu part start -->
+  <section class="mobile-menu d-block d-xl-none sticky-top">
+    <div class="mobile-topbar">
+      <div class="container">
+        <div class="topbar-main d-flex justify-content-between align-items-center">
+          <div class="logo">
+            <img src="images/logo.png" alt="logo" width="50px">
+          </div>
+          <div class="icon">
+            <i class="bi bi-list mobile-icon"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <aside class="aside">
+      <div class="search-box">
+        <form action="">
+          <div class="input-gropus position-relative">
+            <input type="text" placeholder="Search...">
+            <button type="submit"><i class="bi bi-search"></i></button>
+          </div>
+        </form>
+      </div>
+      <ul>
+        <li><a href="">Home</a></li>
+        <li class="sub-menu"><a href="#">About Us <i class="bi bi-chevron-down float-end"></i></a>
+          <ul style="display: none;">
+            <li class="sub-menu"><a href="#">Research & Managment <i class="bi bi-chevron-down float-end"></i></a>
+              <ul style="display: none;">
+                <li><a href="">Menu One</a></li>
+                <li><a href="">Menu Two</a></li>
+              </ul>
+            </li>
+            <li><a href="">About BIMRAD</a></li>
+            <li><a href="">Local Organizer Lead</a></li>
+            <li><a href="">Jugdes</a></li>
+            <li><a href="">Mentors</a></li>
+            <li><a href="">Global Finalist Nominee</a></li>
+          </ul>
+        </li>
+        <li class="sub-menu"><a href="#">Resources <i class="bi bi-chevron-down float-end"></i></a>
+          <ul style="display: none;">
+            <li><a href="">Menu One</a></li>
+            <li><a href="">Menu Two</a></li>
+          </ul>
+        </li>
+        <li class="sub-menu"><a href="#">Media Center <i class="bi bi-chevron-down float-end"></i></a>
+          <ul style="display: none;">
+            <li><a href="">Menu One</a></li>
+            <li><a href="">Menu Two</a></li>
+          </ul>
+        </li>
+        <li><a href="">Registration</a></li>
+        <li><a href="">Faq</a></li>
+        <li><a href="">Contact</a></li>
+      </ul>
+    </aside>
+  </section>
+  <!-- mobile menu part end -->
+  <!-- breadcrumb part start -->
+  <div class="breadcrumb">
+    <div class="overlay">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="content text-center">
+              <h3 class="text-white">Search List</h3>
+              <ul>
+                <li><a href="#">Home</a></li>
+                <li>Search List</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- breadcrumb part end -->
+
+  <!-- news list part start -->
+  <section class="search-list">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="heading text-end">
+            <div class="input-groups">
+              <input type="text" placeholder="Search...">
+              <button type="submit">Search</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="search-info">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="search-by">
+              <p>Search by <span>BIMRAD</span></p>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="search-nubmer text-end">
+              <p>Total search result <span>9</span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="list-details">
+            <ul>
+              <li>
+                <a href="">
+                  <h4>Who we are</h4>
+                  <p>iDEA, an organization of development partners, engaged in independent research, policy analysis,
+                    advocacy, advisory, and project implementations, with a...</p>
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <h4>Who we are</h4>
+                  <p>iDEA, an organization of development partners, engaged in independent research, policy analysis,
+                    advocacy, advisory, and project implementations, with a...</p>
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <h4>Who we are</h4>
+                  <p>iDEA, an organization of development partners, engaged in independent research, policy analysis,
+                    advocacy, advisory, and project implementations, with a...</p>
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <h4>Who we are</h4>
+                  <p>iDEA, an organization of development partners, engaged in independent research, policy analysis,
+                    advocacy, advisory, and project implementations, with a...</p>
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <h4>Who we are</h4>
+                  <p>iDEA, an organization of development partners, engaged in independent research, policy analysis,
+                    advocacy, advisory, and project implementations, with a...</p>
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <h4>Who we are</h4>
+                  <p>iDEA, an organization of development partners, engaged in independent research, policy analysis,
+                    advocacy, advisory, and project implementations, with a...</p>
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <h4>Who we are</h4>
+                  <p>iDEA, an organization of development partners, engaged in independent research, policy analysis,
+                    advocacy, advisory, and project implementations, with a...</p>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- news list part end -->
+
+  <!-- back to top start -->
+  <div class="progress-wrap">
+    <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+      <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+    </svg>
+  </div>
+  <!-- back to top end -->
+  <!-- footer part start -->
+  <footer>
+    <div class="footer-bg">
+      <div class="container">
+        <div class="row">
+          <!-- ===================== -->
+          <!-- col-md-6 add kore nen -->
+          <!-- ===================== -->
+          <div class="col-lg-4 col-md-6">
+            <div class="footer-about">
+              <div class="footer-title">
+                <h4>About Us</h4>
+              </div>
+              <p>
+                Welcome to Bangladesh Institute of Maritime
+                Research and Development (BIMRAD), the first
+                maritime research organisation in the
+                country. BIMRAD was established in 03 July 2018.
+                The Institute is patronised by Bangladesh Navy.
+              </p>
+              <div class="icon">
+                <ul>
+                  <li><a href=""><i class="bi bi-facebook"></i></a></li>
+                  <li><a href=""><i class="bi bi-twitter"></i></a></li>
+                  <li><a href=""><i class="bi bi-linkedin"></i></a></li>
+                  <li><a href=""><i class="bi bi-instagram"></i></a></li>
+                  <li><a href=""><i class="bi bi-pinterest"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-6">
+            <div class="quick-links">
+              <div class="footer-title">
+                <h4>Quick Links</h4>
+              </div>
+              <ul>
+                <li><a href=""><i class="bi bi-chevron-right"></i> About us</a></li>
+                <li><a href=""><i class="bi bi-chevron-right"></i> Contact us</a></li>
+                <li><a href=""><i class="bi bi-chevron-right"></i> Events</a></li>
+                <li><a href=""><i class="bi bi-chevron-right"></i> News</a></li>
+                <li><a href=""><i class="bi bi-chevron-right"></i> Publications</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="contact">
+              <div class="footer-title">
+                <h4>Contact Us</h4>
+              </div>
+              <ul class="d-flex">
+                <li class="icon"><i class="bi bi-telephone"></i></li>
+                <li class="text">+8801769702395
+                  +88029835182</li>
+              </ul>
+              <ul class="d-flex">
+                <li class="icon"><i class="bi bi-envelope"></i></li>
+                <li class="text">office@bimradbd.com
+                  office.bimrad@gmail.com</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="address">
+              <div class="footer-title">
+                <h4>Address</h4>
+              </div>
+              <ul class="d-flex">
+                <li class="icon"><i class="bi bi-house-fill"></i></li>
+                <li class="text">Bangladesh Institute of Maritime
+                  Research and Development
+                  <span class="d-block">(BIMRAD)</span>
+                  Naval Headquarters Complex,
+                  Banani, Dhaka–1213,
+                  <span class="d-block">Bangladesh</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <div class="row">
+            <div class="col-lg-9">
+              <div class="copyright">
+                <p>©2022 All rights reserved by Bangladesh Institute of Maritime Research and Development
+                  <span>(BIMRAD)</span>
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="brand">
+                <p>Development By: <a href="">Nogor Solution Limited</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- footer part end -->
+
+  <script src="js/jquery-1.12.4.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/slick-animation.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/pignose.calendar.full.min.js"></script>
+  <script src="js/back-to-top.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>

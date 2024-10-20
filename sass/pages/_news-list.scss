@@ -1,0 +1,142 @@
+@import "../variable/color";
+
+.news-list {
+  padding-top: 80px;
+}
+
+.left-part {
+  .news-list-item {
+    margin-bottom: 24px;
+  }
+
+  .text {
+    padding-top: 14px;
+
+    h4 {
+      color: $black;
+      font-size: 22px;
+      font-weight: 500;
+    }
+
+    ul {
+      padding: 10px 0;
+      position: relative;
+
+      &::after {
+        width: 80px;
+        height: 2px;
+        background-color: $lightThemeColor;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        content: "";
+      }
+
+      li {
+        display: inline-block;
+        font-size: 14px;
+        margin-right: 14px;
+
+        i {
+          padding-right: 5px;
+          color: $lightThemeColor;
+        }
+      }
+    }
+
+    a {
+      padding-top: 10px;
+      color: $black;
+      transition: all linear .2s;
+
+      &:hover {
+        color: $themeColor;
+      }
+    }
+  }
+}
+
+.right-part {
+  width: 100%;
+  background-color: $white;
+  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1);
+
+  h3 {
+    font-size: 24px;
+    color: $black;
+  }
+
+  .news-search {
+    form {
+      position: relative;
+    }
+
+    input {
+      padding-right: 90px;
+
+      &::placeholder {
+        font-size: 15px;
+        color: rgba(72, 86, 100, .5);
+      }
+
+      &:focus {
+        :focus {
+          box-shadow: none;
+          border-color: $themeColor;
+        }
+      }
+    }
+
+    button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      background-color: $themeColor;
+      color: $white;
+
+      :focus {
+        box-shadow: none;
+      }
+    }
+  }
+
+  .news-image {
+    width: 35%;
+    height: 90px;
+
+    img {
+      height: 100%;
+      object-fit: fill;
+    }
+  }
+
+  .news-text {
+    width: 65%;
+    background-color: #f2f2f2;
+
+    h4 {
+      font-size: 16px;
+      color: $black;
+      transition: .3s;
+    }
+
+    span {
+      font-size: 14px;
+      color: rgba(72, 86, 100, .5);
+      padding-top: 5px;
+      display: inline-block;
+    }
+  }
+
+  .news-main {
+
+    &:hover h4 {
+      color: $themeColor;
+    }
+  }
+}
+
+.sticky {
+  position: sticky;
+  top: 70px;
+}

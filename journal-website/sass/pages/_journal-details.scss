@@ -1,0 +1,102 @@
+@import "../variable/color";
+
+.journal-details {
+  padding-top: 60px;
+  width: 100%;
+
+  .left-info {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 30px;
+
+    .image {
+      width: 100%;
+    }
+
+    .text {
+      width: 100%;
+
+      h2 {
+        font-size: 22px;
+        font-weight: 600;
+        padding-bottom: 8px;
+      }
+
+      .group-info {
+        padding-bottom: 14px;
+
+        h4 {
+          font-size: 16px;
+          font-weight: 600;
+          color: $themeColor;
+          padding-bottom: 4px;
+        }
+
+        p {
+          font-size: 15px;
+        }
+      }
+    }
+
+    .details-info {
+
+      h4 {
+        font-size: 18px;
+        font-weight: 600;
+        color: $themeColor;
+      }
+
+      p {
+        padding-top: 20px;
+      }
+    }
+  }
+
+  .right-info {
+    .right-info-block {
+      border: 1px solid #ccc;
+      border-radius: 20px;
+      padding: 10px;
+      margin-bottom: 20px;
+
+      .title {
+        text-align: center;
+        padding-bottom: 20px;
+
+        h4 {
+          background-color: $themeColor;
+          border-radius: 20px;
+          padding: 10px 20px;
+          color: $white;
+          font-size: 20px;
+        }
+      }
+
+      .image {
+        ul {
+          li {
+            padding-bottom: 10px;
+          }
+        }
+      }
+
+      .links {
+        ul {
+          li {
+            list-style: decimal;
+            margin-left: 20px;
+            line-height: 30px;
+
+            a {
+              color: $black;
+
+              &:hover {
+                color: $themeColor;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

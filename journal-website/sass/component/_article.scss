@@ -1,0 +1,85 @@
+@import "../variable/color";
+
+.article {
+  padding-top: 80px;
+
+  .article-item {
+    position: relative;
+    padding-top: 24px;
+    margin-bottom: 30px;
+
+    &::before {
+      width: 2px;
+      height: 100%;
+      background-color: #f2f2f2;
+      position: absolute;
+      top: 0;
+      left: 38px;
+      content: "";
+      z-index: -1;
+    }
+
+    .icon {
+      i {
+        width: 80px;
+        height: 80px;
+        background-color: #f2f2f2;
+        border-radius: 50%;
+        color: $themeColor;
+        font-size: 30px;
+        text-align: center;
+        line-height: 80px;
+        transition: all linear .2s;
+      }
+    }
+
+    .text {
+      padding-top: 30px;
+
+      h4 {
+        font-size: 26px;
+        font-weight: 600;
+        color: $themeColor;
+        text-transform: capitalize;
+        padding-bottom: 10px;
+      }
+
+      p {
+        padding-bottom: 14px;
+      }
+
+      a {
+        color: $themeColor;
+        font-weight: 600;
+        text-transform: uppercase;
+        font-size: 14px;
+      }
+    }
+
+    &:hover {
+      .icon {
+        i {
+          background-color: $themeColor;
+          color: $white
+        }
+      }
+    }
+  }
+
+  .button {
+    padding-top: 40px;
+
+    a {
+      background-color: $themeColor;
+      color: $white;
+      padding: 12px 30px;
+      border-radius: 5px;
+      transition: all linear .2s;
+
+      &:hover {
+        background-color: $black;
+        color: $white;
+      }
+    }
+  }
+}

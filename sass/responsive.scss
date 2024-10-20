@@ -1,0 +1,563 @@
+@media (min-width:1400px) and (max-width:1699px) {
+
+  // navbar part start
+  .navbar {
+    padding: 0 20px;
+  }
+
+  nav ul.navbar-nav li {
+    margin: 0 7px;
+    position: relative;
+  }
+
+  // navbar part end
+}
+
+@media (min-width:1200px) and (max-width:1399px) {
+
+  //navbar part start 
+  .navbar {
+    padding: 0;
+    padding-left: 20px;
+  }
+
+  nav ul.navbar-nav li {
+    margin: 0 7px;
+  }
+
+  //navbar part end 
+  // banner part start
+  .banner .banner-slider .overlay {
+    padding: 200px 0;
+  }
+
+  .banner .banner-slider .banner-text h1 {
+    font-size: 40px;
+    line-height: 60px;
+  }
+
+  .banner .banner-slider .banner-text {
+    padding-left: 40px;
+  }
+
+  .banner .banner-slider .banner-text span {
+    font-size: 42px;
+  }
+
+  .banner .banner-slider .overlay .shape {
+    height: 264px;
+  }
+
+  .banner .left {
+    top: calc(100% - 65px);
+    left: calc(100% - 160px);
+    transform: translateY(0);
+  }
+
+  .banner .right {
+    top: calc(100% - 65px);
+    left: calc(100% - 108px);
+    transform: translateY(0);
+  }
+
+  // banner part end
+}
+
+@media (min-width:992px) and (max-width:1199.98px) {
+
+  // banner part start
+  .banner .banner-slider .overlay {
+    padding: 164px 0;
+  }
+
+  .banner .banner-slider .banner-text h1 {
+    font-size: 35px;
+    line-height: 47px;
+  }
+
+  .banner .banner-slider .banner-text {
+    padding-left: 40px;
+  }
+
+  .banner .banner-slider .banner-text span {
+    font-size: 42px;
+  }
+
+  .banner .banner-slider .overlay .shape {
+    height: 232px;
+  }
+
+  .banner .left {
+    top: calc(100% - 65px);
+    left: calc(100% - 160px);
+    transform: translateY(0);
+  }
+
+  .banner .right {
+    top: calc(100% - 65px);
+    left: calc(100% - 108px);
+    transform: translateY(0);
+  }
+
+  // banner part end
+  // about part start
+  .about .text {
+    padding-left: 0px;
+  }
+
+  .about .image-main .image {
+    margin-left: 30px;
+  }
+
+  // about part end
+  // article part start
+  .article .recent-article .article-item .text h4 {
+    font-size: 18px;
+  }
+
+  // article part end
+  // footer part start
+  footer .footer-bg .footer-title h4 {
+    font-size: 22px;
+  }
+
+  footer .footer-bg .contact ul li.text {
+    max-width: 186px;
+  }
+
+  // footer part end
+}
+
+@media (min-width:768px) and (max-width:991.98px) {
+
+  // banner part start
+  .banner .banner-slider .overlay {
+    padding: 164px 0;
+  }
+
+  .banner .banner-slider .banner-text h1 {
+    font-size: 35px;
+    line-height: 47px;
+  }
+
+  .banner .banner-slider .banner-text {
+    padding-left: 40px;
+  }
+
+  .banner .banner-slider .banner-text span {
+    font-size: 42px;
+  }
+
+  .banner .banner-slider .overlay .shape {
+    height: 232px;
+  }
+
+  .banner .left {
+    top: calc(100% - 65px);
+    left: calc(100% - 160px);
+    transform: translateY(0);
+  }
+
+  .banner .right {
+    top: calc(100% - 65px);
+    left: calc(100% - 108px);
+    transform: translateY(0);
+  }
+
+  // banner part end
+  // about part start
+  .about {
+    padding-top: 60px;
+  }
+
+  .about .image-main .image {
+    margin-left: 0;
+  }
+
+  .about .text {
+    padding-top: 40px;
+    padding-left: 0;
+  }
+
+  .about .text h2 {
+    font-size: 24px;
+    padding-left: 22px;
+    border-left: 2px solid #A66618;
+    width: 100%;
+  }
+
+  // about part end
+  // research part start
+  .research {
+    padding-top: 60px;
+  }
+
+  .research .research-item {
+    margin-bottom: 24px;
+  }
+
+  // research part end
+  // article part start
+  .article {
+    padding-top: 40px;
+  }
+
+  .article .recent-article {
+    margin-top: 30px;
+  }
+
+  // article part end
+  // maritime news part start
+  .maritime-news {
+    padding-top: 60px;
+  }
+
+  // maritime news part end
+  // event part start
+  .event-part {
+    padding-top: 60px;
+  }
+
+  .event-part .event-box {
+    margin-top: 30px;
+  }
+
+  // event part end
+  // publication part start
+  .publication .publication-item .img {
+    height: auto;
+  }
+
+  .publication .publication-item {
+    margin-bottom: 24px;
+  }
+
+  .publication .publication-item .img img {
+    padding-left: 75px;
+  }
+
+  // publication part end
+  // footer part start
+  footer {
+    padding-top: 60px;
+  }
+
+  footer .quick-links {
+    margin-top: 30px;
+  }
+
+  footer .contact {
+    margin-top: 14px;
+  }
+
+  // footer part end
+}
+
+@media (min-width:576px) and (max-width:767.98px) {
+
+  // banner part start
+  .banner .banner-slider .overlay {
+    padding: 164px 0;
+  }
+
+  .banner .banner-slider .banner-text h1 {
+    font-size: 28px;
+    line-height: 37px;
+  }
+
+  .banner .banner-slider .banner-text {
+    padding-left: 40px;
+  }
+
+  .banner .banner-slider .banner-text span {
+    font-size: 42px;
+  }
+
+  .banner .banner-slider .overlay .shape {
+    height: 207px;
+  }
+
+  .banner .left {
+    top: calc(100% - 65px);
+    left: calc(100% - 160px);
+    transform: translateY(0);
+  }
+
+  .banner .right {
+    top: calc(100% - 65px);
+    left: calc(100% - 108px);
+    transform: translateY(0);
+  }
+
+  // banner part end
+  // about part start
+  .about {
+    padding-top: 60px;
+  }
+
+  .about .image-main .image {
+    margin-left: 0;
+  }
+
+  .about .text {
+    padding-top: 40px;
+    padding-left: 0;
+  }
+
+  .about .text h2 {
+    font-size: 24px;
+    padding-left: 22px;
+    border-left: 2px solid #A66618;
+    width: 100%;
+  }
+
+  // about part end
+  // research part start
+  .research {
+    padding-top: 60px;
+  }
+
+  .research .research-item {
+    margin-bottom: 24px;
+  }
+
+  // research part end
+  // article part start
+  .article {
+    padding-top: 40px;
+  }
+
+  .article .recent-article {
+    margin-top: 30px;
+  }
+
+  // article part end
+  // maritime news part start
+  .maritime-news {
+    padding-top: 60px;
+  }
+
+  // maritime news part end
+  // event part start
+  .event-part {
+    padding-top: 60px;
+  }
+
+  .event-part .event-box {
+    margin-top: 30px;
+  }
+
+  // event part end
+  // publication part start
+  .publication .publication-item .img {
+    height: auto;
+  }
+
+  .publication .publication-item {
+    margin-bottom: 24px;
+  }
+
+  .publication .publication-item .img img {
+    padding-left: 75px;
+  }
+
+  // publication part end
+  // footer part start
+  footer {
+    padding-top: 60px;
+  }
+
+  footer .quick-links {
+    margin-top: 30px;
+  }
+
+  footer .contact {
+    margin-top: 14px;
+  }
+
+  // footer part end
+}
+
+@media (max-width:575.98px) {
+
+  // banner part start
+  .banner .banner-slider .overlay {
+    padding: 164px 0;
+  }
+
+  .banner .banner-slider .banner-text h1 {
+    font-size: 28px;
+    line-height: 37px;
+  }
+
+  .banner .banner-slider .banner-text {
+    padding-left: 40px;
+  }
+
+  .banner .banner-slider .banner-text span {
+    font-size: 42px;
+  }
+
+  .banner .banner-slider .overlay .shape {
+    height: 207px;
+  }
+
+  .banner .left {
+    top: calc(100% - 65px);
+    left: calc(100% - 160px);
+    transform: translateY(0);
+  }
+
+  .banner .right {
+    top: calc(100% - 65px);
+    left: calc(100% - 108px);
+    transform: translateY(0);
+  }
+
+  // banner part end
+  // about part start
+  .about {
+    padding-top: 60px;
+  }
+
+  .about .image-main .image {
+    margin-left: 0;
+  }
+
+  .about .text {
+    padding-top: 40px;
+    padding-left: 0;
+  }
+
+  .about .text h2 {
+    font-size: 24px;
+    padding-left: 22px;
+    border-left: 2px solid #A66618;
+    width: 100%;
+  }
+
+  // about part end
+  // research part start
+  .research {
+    padding-top: 60px;
+  }
+
+  .research .research-item {
+    margin-bottom: 24px;
+  }
+
+  // research part end
+  // article part start
+  .article {
+    padding-top: 40px;
+  }
+
+  .article .recent-article {
+    margin-top: 30px;
+  }
+
+  // article part end
+  // maritime news part start
+  .maritime-news {
+    padding-top: 60px;
+  }
+
+  // maritime news part end
+  // event part start
+  .event-part {
+    padding-top: 60px;
+  }
+
+  .event-part .event-box {
+    margin-top: 30px;
+  }
+
+  // event part end
+  // publication part start
+  .publication .publication-item .img {
+    height: auto;
+  }
+
+  .publication .publication-item {
+    margin-bottom: 24px;
+  }
+
+  .publication .publication-item .img img {
+    padding-left: 75px;
+  }
+
+  // publication part end
+  // footer part start
+  footer {
+    padding-top: 60px;
+  }
+
+  footer .quick-links {
+    margin-top: 30px;
+  }
+
+  footer .contact {
+    margin-top: 14px;
+  }
+
+  // footer part end
+  // content page one start
+  
+  // content page one end
+}
+
+@media (max-width:370px) {
+
+  // banner part start
+  .banner .banner-slider .overlay .shape {
+    height: 244px;
+  }
+
+  .banner .left {
+    left: calc(100% - 127px);
+  }
+
+  .banner .right {
+    left: calc(100% - 74px);
+  }
+
+  // banner part end
+  // about part start
+  .about .text h2 {
+    font-size: 18px;
+    line-height: 26px;
+  }
+
+  .about .text p {
+    padding-top: 18px;
+  }
+
+  // about part end
+  // research part start
+  .research .research-item .title h4 {
+    font-size: 23px;
+  }
+
+  // research part end
+  // article part start
+  .article .write-up .text a {
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .article .recent-article .article-item .text h4 {
+    font-size: 18px;
+  }
+
+  // article part end
+  // gallery part start
+  .nav-pills .nav-link {
+    font-size: 18px;
+  }
+
+  .gallery .gallery-button ul.nav {
+    padding: 5px 10px;
+  }
+
+  // gallery part end
+}

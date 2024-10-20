@@ -1,0 +1,45 @@
+@import "../variable/color";
+
+.publication-list {
+  padding-top: 80px;
+
+  .publication-item {
+    margin-bottom: 24px;
+  }
+
+  .image {
+    height: 410px;
+    background-color: red;
+    position: relative;
+
+    img {
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+    }
+
+    .overlay {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      background-color: rgba(40, 37, 96, .8);
+      padding: 20px;
+      transform: scaleY(0);
+      transform-origin: bottom;
+      transition: all linear .2s;
+
+      a {
+        color: $white;
+        font-size: 20px;
+        font-weight: 600;
+      }
+    }
+
+    &:hover {
+      .overlay {
+        transform: scaleY(1);
+      }
+    }
+  }
+}

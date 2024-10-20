@@ -1,0 +1,306 @@
+@import "../variable/color";
+
+
+.member-dashboard {
+  padding: 80px 0 80px 0;
+  background-color: #F4F6F8;
+
+  .member-left-menu {
+    width: 100%;
+    background-color: $white;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.1);
+    padding-bottom: 14px;
+
+    #v-pills-tab {
+      margin: 0 !important;
+    }
+
+    .menu-title {
+      border-bottom: 1px solid #ccc;
+
+      h4 {
+        font-size: 22px;
+        font-weight: 600;
+        padding: 20px 28px 20px;
+      }
+    }
+
+    .nav-link {
+      color: #000;
+      font-weight: 400;
+      font-size: 15px;
+      padding: 10px 30px;
+      text-transform: uppercase;
+      text-align: left;
+      width: 100%;
+      border-left: 2px solid transparent;
+      border-radius: 0;
+
+      i {
+        width: 30px;
+        height: 30px;
+        text-align: center;
+        line-height: 30px;
+        border-radius: 50%;
+        background-color: #FE661F;
+        margin-right: 10px;
+        color: $white;
+      }
+    }
+
+    .logout-profile {
+      i {
+        width: 30px;
+        height: 30px;
+        text-align: center;
+        line-height: 30px;
+        border-radius: 50%;
+        background-color: #FE661F;
+        margin-right: 10px;
+        color: $white;
+      }
+    }
+
+    .nav-link.active {
+      font-weight: 500;
+      background-color: #eff3f5;
+      border-color: #FE661F;
+
+    }
+
+    .logout-profile {
+      a {
+        color: #000;
+        font-weight: 400;
+        font-size: 15px;
+        padding: 10px 30px;
+        text-transform: uppercase;
+        display: block;
+        width: 100%;
+      }
+    }
+  }
+
+  .profile-info {
+    .title {
+      padding-bottom: 20px;
+
+      h2 {
+        font-size: 26px;
+        font-weight: 700;
+      }
+    }
+
+    .profile {
+      width: 100%;
+      padding: 40px;
+      background-color: $white;
+      box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+
+      .image {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+
+        img {
+          height: 100%;
+          object-fit: cover;
+          object-position: center;
+          border-radius: 50%;
+        }
+      }
+
+      .text {
+        h3 {
+          font-size: 22px;
+          font-weight: 500;
+        }
+      }
+    }
+  }
+
+  .member-right-info {
+    .book {
+      .book-item {
+        background-color: $white;
+        box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
+        margin-bottom: 24px;
+
+        .image {
+          height: 316px;
+          position: relative;
+
+          .icon {
+            position: absolute;
+            bottom: 20px;
+            left: 20px;
+
+            i {
+              width: 40px;
+              height: 40px;
+              background-color: $white;
+              border-radius: 50%;
+              text-align: center;
+              line-height: 40px;
+              color: $themeColor;
+            }
+          }
+
+          img {
+            height: 100%;
+            object-fit: cover;
+            object-position: center;
+          }
+        }
+
+        .text {
+          padding: 10px;
+
+          a {
+            font-size: 18px;
+            color: $black;
+            transition: all linear .2s;
+
+            &:hover {
+              color: $themeColor;
+            }
+          }
+        }
+      }
+    }
+
+    .password {
+      box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+      padding: 40px;
+      background-color: $white;
+
+      .pass-title {
+        padding-bottom: 30px;
+
+        h4 {
+          text-transform: uppercase;
+          color: $white;
+          background-color: $themeColor;
+          font-weight: 700;
+          padding: 10px;
+          font-size: 20px;
+        }
+      }
+
+      .submit {
+        padding-top: 14px;
+
+        a {
+          padding: 10px 30px;
+          font-weight: 500;
+          background-color: $themeColor;
+          color: $white;
+          border-radius: 3px;
+          margin-right: 14px;
+        }
+      }
+    }
+  }
+}
+
+.profile-details {
+  margin-bottom: 40px;
+}
+
+
+
+.member-profile-details .img {
+  box-shadow: 0 5px 20px rgba(221, 221, 221, 0.6);
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.member-profile-details .img img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.member-profile-details .person-text h2 {
+  font-size: 26px;
+  color: #ffb631;
+}
+
+.member-profile-details .person-text .dept {
+  font-size: 18px;
+  color: #444444;
+}
+
+.member-profile-details .person-text .edu {
+  font-size: 18px;
+  color: #4e5e73;
+  font-weight: 600;
+  padding-top: 5px;
+}
+
+.member-profile-details .text .title h4 {
+  font-size: 22px;
+  color: #4e5e73;
+  position: relative;
+}
+
+.member-profile-details .text .title h4::before {
+  width: 70px;
+  height: 3px;
+  background-color: #dddddd;
+  position: absolute;
+  bottom: -15px;
+  left: 0;
+  content: "";
+  border-radius: 5px;
+}
+
+.member-profile-details .left-part {
+  width: 50%;
+}
+
+.member-profile-details .right-part {
+  width: 45%;
+  box-shadow: none;
+  margin-left: auto;
+}
+
+.member-profile-details ul li {
+  font-size: 15px;
+  font-weight: 500;
+  color: $black;
+  line-height: 36px;
+  position: relative;
+}
+
+.member-profile-details ul li span {
+  font-size: 16px;
+  color: #444;
+  font-weight: 600;
+}
+
+.member-profile-details ul li::before {
+  width: 7px;
+  height: 7px;
+  background-color: #dddddd;
+  position: absolute;
+  left: -24px;
+  top: 50%;
+  transform: translateY(-50%);
+  content: "";
+}
+
+.member-profile-details .text {
+  background: #fff;
+  box-shadow: 0 5px 20px rgba(221, 221, 221, 0.6);
+  padding: 24px;
+}
+
+.member-profile-details .text .edit button {
+  background-color: $themeColor;
+  color: $white;
+  padding: 6px 14px;
+  border: 0;
+}

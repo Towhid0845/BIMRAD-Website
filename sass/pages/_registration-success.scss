@@ -1,0 +1,72 @@
+@import "../variable/color";
+
+.registration-success {
+  padding-top: 200px;
+  padding-bottom: 100px;
+
+  .success-body {
+    width: 100%;
+    background-color: $white;
+    box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    padding: 40px;
+    position: relative;
+    overflow: hidden;
+
+    &::before {
+      position: absolute;
+      width: 120px;
+      height: 120px;
+      background-color: #F9F9F9;
+      border-radius: 50%;
+      content: "";
+      top: -60px;
+      right: 9px;
+    }
+
+    &::after {
+      position: absolute;
+      width: 300px;
+      height: 300px;
+      background-color: #F9F9F9;
+      border-radius: 50%;
+      content: "";
+      top: 97px;
+      right: -123px;
+    }
+
+    h3 {
+      font-size: 38px;
+      font-weight: 700;
+      color: $themeColor;
+    }
+
+    p {
+      font-size: 20px;
+      color: #8E8C96;
+      font-weight: 400;
+      padding-top: 10px;
+      padding-bottom: 30px;
+    }
+
+    h5 {
+      font-size: 20px;
+      color: #8E8C96;
+      padding: 10px 100px 0;
+      font-weight: 400;
+
+      span {
+        color: $black;
+      }
+    }
+
+    a {
+      margin-top: 30px;
+      padding: 15px 20px;
+      text-transform: uppercase;
+      color: $white;
+      background-color: $themeColor;
+      border-radius: 40px;
+    }
+  }
+}

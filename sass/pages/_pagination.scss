@@ -1,0 +1,55 @@
+@import "../variable/color";
+
+.pagination {
+  margin-top: 40px;
+
+  ul {
+    li {
+      display: inline-block;
+      box-shadow: 0 0px 25px rgba(0, 0, 0, 0.1);
+
+      a {
+        color: $black;
+      }
+    }
+
+    li.arrow {
+      width: 40px;
+      height: 40px;
+      background-color: $white;
+      border-radius: 50%;
+      text-align: center;
+      line-height: 40px;
+      margin: 0 6px;
+    }
+
+    li.arrow:last-child {
+      margin-right: 0;
+    }
+
+    li.mid-pagi {
+      padding: 0 20px;
+      background-color: $white;
+      height: 40px;
+      line-height: 40px;
+      border-radius: 50px;
+    }
+
+    li.mid-pagi a {
+      margin: 0 10px;
+      color: $black;
+    }
+
+    li.mid-pagi a.active {
+      width: 25px;
+      height: 25px;
+      background-color: $themeColor;
+      border-radius: 50%;
+      text-align: center;
+      line-height: 25px;
+      display: inline-block;
+      color: $white;
+      box-shadow: 0 0px 10px rgba(0, 0, 0, 0.3);
+    }
+  }
+}

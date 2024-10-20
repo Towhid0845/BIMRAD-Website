@@ -1,0 +1,48 @@
+@import "../variable/color";
+
+.bread-crumb {
+  width: 100%;
+  padding: 30px 0;
+  background-color: #f2f2f2;
+  margin-top: 55px;
+
+  .left-info {
+    ul {
+      li {
+        display: inline-block;
+        font-size: 18px;
+        font-weight: 500;
+        margin-right: 20px;
+        position: relative;
+        color: #666666;
+
+        a {
+          color: $themeColor;
+        }
+
+        &::before {
+          position: absolute;
+          top: 0;
+          right: -17px;
+          content: "/";
+        }
+
+        &:last-child {
+          &::before {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+
+  .right-info {
+    ul {
+      li {
+        font-size: 18px;
+        font-weight: 500;
+        color: $themeColor;
+      }
+    }
+  }
+}

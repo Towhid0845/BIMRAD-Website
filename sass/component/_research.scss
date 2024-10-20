@@ -1,0 +1,120 @@
+@import "../variable/color";
+
+.research {
+  padding-top: 80px;
+
+  .research-item {
+    width: 100%;
+    background-color: $white;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: all linear .2s;
+
+    .title {
+      border-bottom: 1px solid #E3E3E3;
+      padding: 30px;
+
+      i {
+        color: $themeColor;
+        font-size: 52px;
+        padding-bottom: 10px;
+      }
+
+      h4 {
+        font-size: 26px;
+        font-weight: 600;
+        transition: all linear .2s;
+      }
+    }
+
+    .research-body {
+      padding: 30px;
+
+      ul {
+        li {
+          font-size: 20px;
+          padding-bottom: 8px;
+
+          span {
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+          }
+
+          i {
+            font-size: 30px;
+            color: $themeColor;
+            padding-right: 5px !important;
+          }
+        }
+      }
+    }
+
+    .read-more {
+      padding: 30px;
+      padding-bottom: 0;
+      padding-top: 20px;
+      padding-left: 0;
+      overflow: hidden;
+
+      a {
+        background-color: $themeColor;
+        color: $white;
+        padding: 5px 20px;
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px;
+        font-size: 16px;
+        font-weight: 600;
+        margin-left: -100px;
+        transition: all linear .2s;
+
+        i {
+          padding-left: 10px;
+          font-size: 26px;
+          vertical-align: middle !important;
+        }
+      }
+    }
+
+    &:hover .read-more a {
+      margin-left: 0;
+    }
+
+    &:hover .title h4 {
+      color: $themeColor;
+    }
+  }
+
+  .active {
+    background-color: $themeColor;
+    color: $white;
+
+    .title {
+      i {
+        color: $white
+      }
+    }
+
+    .research-body {
+      ul {
+        li {
+          i {
+            color: $white;
+          }
+        }
+      }
+    }
+
+    .read-more {
+      a {
+        background-color: $white;
+        color: $black;
+      }
+    }
+
+    &:hover .title h4 {
+      color: $white;
+    }
+  }
+
+}

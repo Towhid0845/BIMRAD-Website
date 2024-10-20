@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport"
+    content="width=device-width, content=user-scalable=yes, initial-scale=1.0, maximum-scale=5, minimum-scale=1.0">
+  <title>BIMRAD</title>
+  <!-- Css file start -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/fonts.css">
+  <link rel="stylesheet" href="icons/bootstrap-icons-1.9.1/bootstrap-icons.css">
+  <link rel="stylesheet" href="css/slick.css">
+  <link rel="stylesheet" href="css/animate.min.css">
+  <link rel="stylesheet" href="css/magnific-popup.css">
+  <link rel="stylesheet" href="css/pignose.calendar.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <!-- Css file end -->
+</head>
+
+<body>
+
+  <!-- navbar part start -->
+  <nav class="navbar navbar-expand-lg sticky-top d-none d-xl-block">
+    <div class="container-fluid position-relative">
+      <a class="navbar-brand" href="#">
+        <img src="images/logo.png" alt="logo" width="90" class="position-absolute top-0 start-0">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About Us <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li>
+                <a href="">About BIMRAD</a>
+              </li>
+              <li>
+                <a href="">Research & Management Team <i class="bi bi-chevron-right float-end"></i></a>
+                <ul>
+                  <li>
+                    <a href="">Management Team</a>
+                  </li>
+                  <li>
+                    <a href="">Researcher</a>
+                  </li>
+                  <li>
+                    <a href="">Advisor</a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a href="">Messages <i class="bi bi-chevron-right float-end"></i></a>
+                <ul>
+                  <li>
+                    <a href="">Chief Patron</a>
+                  </li>
+                  <li>
+                    <a href="">Acting Chairman</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Research <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li>
+                <a href="">Management Team</a>
+              </li>
+              <li>
+                <a href="">Researcher</a>
+              </li>
+              <li>
+                <a href="">Advisor</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Events <i class="bi bi-chevron-down"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Facilities <i class="bi bi-chevron-down"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Gallery <i class="bi bi-chevron-down"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Partnership <i class="bi bi-chevron-down"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Publications <i class="bi bi-chevron-down"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Library <i class="bi bi-chevron-down"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Membership <i class="bi bi-chevron-down"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact <i class="bi bi-chevron-down"></i></a>
+          </li>
+        </ul>
+        <ul class="navbar-action ms-4">
+          <li class="search">
+            <i class="bi bi-search"></i>
+          </li>
+          <li>
+            <a class="mail" href=""><i class="bi bi-envelope-paper-fill"></i> Webmail</a>
+          </li>
+        </ul>
+        <div class="search-option">
+          <form action="">
+            <div class="input-groups position-relative">
+              <input type="text" placeholder="Search your keyword..." class="w-100">
+              <button type="submit" class="position-absolute"><i class="bi bi-search"></i></button>
+              <div class="close-search">
+                <i class="bi bi-x-lg"></i>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- navbar part end -->
+  <!-- ========================= -->
+  <!-- mobile menu ta add kore nen -->
+  <!-- ========================= -->
+  <!-- mobile menu part start -->
+  <section class="mobile-menu d-block d-xl-none sticky-top">
+    <div class="mobile-topbar">
+      <div class="container">
+        <div class="topbar-main d-flex justify-content-between align-items-center">
+          <div class="logo">
+            <img src="images/logo.png" alt="logo" width="50px">
+          </div>
+          <div class="icon">
+            <i class="bi bi-list mobile-icon"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <aside class="aside">
+      <div class="search-box">
+        <form action="">
+          <div class="input-gropus position-relative">
+            <input type="text" placeholder="Search...">
+            <button type="submit"><i class="bi bi-search"></i></button>
+          </div>
+        </form>
+      </div>
+      <ul>
+        <li><a href="">Home</a></li>
+        <li class="sub-menu"><a href="#">About Us <i class="bi bi-chevron-down float-end"></i></a>
+          <ul style="display: none;">
+            <li class="sub-menu"><a href="#">Research & Managment <i class="bi bi-chevron-down float-end"></i></a>
+              <ul style="display: none;">
+                <li><a href="">Menu One</a></li>
+                <li><a href="">Menu Two</a></li>
+              </ul>
+            </li>
+            <li><a href="">About BIMRAD</a></li>
+            <li><a href="">Local Organizer Lead</a></li>
+            <li><a href="">Jugdes</a></li>
+            <li><a href="">Mentors</a></li>
+            <li><a href="">Global Finalist Nominee</a></li>
+          </ul>
+        </li>
+        <li class="sub-menu"><a href="#">Resources <i class="bi bi-chevron-down float-end"></i></a>
+          <ul style="display: none;">
+            <li><a href="">Menu One</a></li>
+            <li><a href="">Menu Two</a></li>
+          </ul>
+        </li>
+        <li class="sub-menu"><a href="#">Media Center <i class="bi bi-chevron-down float-end"></i></a>
+          <ul style="display: none;">
+            <li><a href="">Menu One</a></li>
+            <li><a href="">Menu Two</a></li>
+          </ul>
+        </li>
+        <li><a href="">Registration</a></li>
+        <li><a href="">Faq</a></li>
+        <li><a href="">Contact</a></li>
+      </ul>
+    </aside>
+  </section>
+  <!-- mobile menu part end -->
+  <!-- breadcrumb part start -->
+  <div class="breadcrumb">
+    <div class="overlay">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="content text-center">
+              <h3 class="text-white">Content Page One</h3>
+              <ul>
+                <li><a href="#">Home</a></li>
+                <li>Content Page</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- breadcrumb part end -->
+
+
+  <section class="content-page-one">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="image"
+            style="background: url(images/content-page-layout-image-2.png);background-repeat: no-repeat; background-position: center; background-size: cover;">
+            <div class="overlay p-5 d-flex align-items-end">
+              <div class="text">
+                <h1 class="text-white">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores animi possimus
+                  dolor aspernatur nostrum atque reiciendis assumenda nulla</h1>
+                <span>February 9, 2021</span>
+              </div>
+            </div>
+          </div>
+          <div class="details">
+            <p class="pt-5">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis, excepturi ut autem
+              esse perspiciatis cumque voluptatum expedita quis ratione ad incidunt necessitatibus dolor. Eligendi eos
+              vero dolore eveniet perferendis veniam dolor ut nihil tempore, eum ex illum dolorum, id cupiditate harum
+              voluptatem similique deserunt, et pariatur molestias earum illo. Esse facilis nobis consectetur, unde
+              temporibus iure quia magnam in, itaque rerum alias sint consequatur vitae autem. Laborum sed minima fugit
+              excepturi, aut cum? Cupiditate consectetur nam quidem sapiente aut incidunt minima, sunt saepe veniam at
+              animi et laboriosam mollitia nisi consequuntur autem, ipsam nobis voluptas beatae fugit? Facilis a dolor
+              neque modi debitis esse illum architecto alias in cumque error adipisci corporis aliquam obcaecati at,
+              temporibus porro! Vero doloremque quis assumenda inventore perspiciatis. Necessitatibus ut voluptatum odio
+              illo corporis architecto exercitationem aliquam maxime ipsum sequi dolor perspiciatis tempore laboriosam
+              enim perferendis, sapiente, commodi ratione at accusamus ex nam? Consectetur ad laboriosam laudantium?
+              Architecto eveniet nostrum modi illum nam qui itaque quam deserunt porro explicabo impedit mollitia
+              molestiae repudiandae, enim fugit animi aspernatur voluptate obcaecati nulla expedita quidem. Incidunt,
+              perspiciatis aperiam soluta voluptates iste corporis mollitia vel minus eum, consequatur architecto
+              officia quas quae maiores aliquid at ratione earum! Ut culpa deleniti distinctio reprehenderit sed
+              recusandae inventore rem illum, vel doloremque dignissimos sunt error, laborum corporis rerum neque atque
+              voluptatum. Unde est optio quo cupiditate pariatur quod voluptatibus assumenda dolores ratione ad quas ab
+              suscipit, vero facere totam dolore! Repellendus possimus id laudantium repudiandae, laborum officiis ipsa
+              dolorem, tempora aperiam sit quidem. Laborum veniam reprehenderit maxime corrupti neque fugit at
+              voluptatibus corporis, ipsam optio nam, eius, deleniti repudiandae et explicabo? Illum numquam natus
+              aperiam voluptatum modi odit, quibusdam tenetur laudantium excepturi quasi, recusandae consectetur amet
+              quos praesentium quae corrupti maiores adipisci nostrum harum nobis dolor repellendus, atque error
+              ratione! Quod, minima.</p>
+            <div class="mid-shape">
+              <span><i class="bi bi-quote"></i></span>
+              <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, asperiores animi dignissimos maiores
+                ut eligendi hic consequatur odit sint ratione similique dolorum, quidem reprehenderit quae quia quaerat
+                eius architecto minima.
+              </h4>
+            </div>
+            <p class="pt-5">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis, excepturi ut autem
+              esse perspiciatis cumque voluptatum expedita quis ratione ad incidunt necessitatibus dolor. Eligendi eos
+              vero dolore eveniet perferendis veniam dolor ut nihil tempore, eum ex illum dolorum, id cupiditate harum
+              voluptatem similique deserunt, et pariatur molestias earum illo. Esse facilis nobis consectetur, unde
+              temporibus iure quia magnam in, itaque rerum alias sint consequatur vitae autem. Laborum sed minima fugit
+              excepturi, aut cum? Cupiditate consectetur nam quidem sapiente aut incidunt minima, sunt saepe veniam at
+              animi et laboriosam mollitia nisi consequuntur autem, ipsam nobis voluptas beatae fugit? Facilis a dolor
+              neque modi debitis esse illum architecto alias in cumque error adipisci corporis aliquam obcaecati at,
+              temporibus porro! Vero doloremque quis assumenda inventore perspiciatis. Necessitatibus ut voluptatum odio
+              illo corporis architecto exercitationem aliquam maxime ipsum sequi dolor perspiciatis tempore laboriosam
+              enim perferendis, sapiente, commodi ratione at accusamus ex nam? Consectetur ad laboriosam laudantium?
+              Architecto eveniet nostrum modi illum nam qui itaque quam deserunt porro explicabo impedit mollitia
+              molestiae repudiandae, enim fugit animi aspernatur voluptate obcaecati nulla expedita quidem. Incidunt,
+              perspiciatis aperiam soluta voluptates iste corporis mollitia vel minus eum, consequatur architecto
+              officia quas quae maiores aliquid at ratione earum! Ut culpa deleniti distinctio reprehenderit sed
+              recusandae inventore rem illum, vel doloremque dignissimos sunt error, laborum corporis rerum neque atque
+              voluptatum. Unde est optio quo cupiditate pariatur quod voluptatibus assumenda dolores ratione ad quas ab
+              suscipit, vero facere totam dolore! Repellendus possimus id laudantium repudiandae, laborum officiis ipsa
+              dolorem, tempora aperiam sit quidem. Laborum veniam reprehenderit maxime corrupti neque fugit at
+              voluptatibus corporis, ipsam optio nam, eius, deleniti repudiandae et explicabo? Illum numquam natus
+              aperiam voluptatum modi odit, quibusdam tenetur laudantium excepturi quasi, recusandae consectetur amet
+              quos praesentium quae corrupti maiores adipisci nostrum harum nobis dolor repellendus, atque error
+              ratione! Quod, minima.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- back to top start -->
+  <div class="progress-wrap">
+    <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+      <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+    </svg>
+  </div>
+  <!-- back to top end -->
+  <!-- footer part start -->
+  <footer>
+    <div class="footer-bg">
+      <div class="container">
+        <div class="row">
+          <!-- ===================== -->
+          <!-- col-md-6 add kore nen -->
+          <!-- ===================== -->
+          <div class="col-lg-4 col-md-6">
+            <div class="footer-about">
+              <div class="footer-title">
+                <h4>About Us</h4>
+              </div>
+              <p>
+                Welcome to Bangladesh Institute of Maritime
+                Research and Development (BIMRAD), the first
+                maritime research organisation in the
+                country. BIMRAD was established in 03 July 2018.
+                The Institute is patronised by Bangladesh Navy.
+              </p>
+              <div class="icon">
+                <ul>
+                  <li><a href=""><i class="bi bi-facebook"></i></a></li>
+                  <li><a href=""><i class="bi bi-twitter"></i></a></li>
+                  <li><a href=""><i class="bi bi-linkedin"></i></a></li>
+                  <li><a href=""><i class="bi bi-instagram"></i></a></li>
+                  <li><a href=""><i class="bi bi-pinterest"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-6">
+            <div class="quick-links">
+              <div class="footer-title">
+                <h4>Quick Links</h4>
+              </div>
+              <ul>
+                <li><a href=""><i class="bi bi-chevron-right"></i> About us</a></li>
+                <li><a href=""><i class="bi bi-chevron-right"></i> Contact us</a></li>
+                <li><a href=""><i class="bi bi-chevron-right"></i> Events</a></li>
+                <li><a href=""><i class="bi bi-chevron-right"></i> News</a></li>
+                <li><a href=""><i class="bi bi-chevron-right"></i> Publications</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="contact">
+              <div class="footer-title">
+                <h4>Contact Us</h4>
+              </div>
+              <ul class="d-flex">
+                <li class="icon"><i class="bi bi-telephone"></i></li>
+                <li class="text">+8801769702395
+                  +88029835182</li>
+              </ul>
+              <ul class="d-flex">
+                <li class="icon"><i class="bi bi-envelope"></i></li>
+                <li class="text">office@bimradbd.com
+                  office.bimrad@gmail.com</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="address">
+              <div class="footer-title">
+                <h4>Address</h4>
+              </div>
+              <ul class="d-flex">
+                <li class="icon"><i class="bi bi-house-fill"></i></li>
+                <li class="text">Bangladesh Institute of Maritime
+                  Research and Development
+                  <span class="d-block">(BIMRAD)</span>
+                  Naval Headquarters Complex,
+                  Banani, Dhaka–1213,
+                  <span class="d-block">Bangladesh</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <div class="row">
+            <div class="col-lg-9">
+              <div class="copyright">
+                <p>©2022 All rights reserved by Bangladesh Institute of Maritime Research and Development
+                  <span>(BIMRAD)</span>
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="brand">
+                <p>Development By: <a href="">Nogor Solution Limited</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- footer part end -->
+
+  <script src="js/jquery-1.12.4.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/slick-animation.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/pignose.calendar.full.min.js"></script>
+  <script src="js/back-to-top.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,30 @@
+@import "../variable/color";
+
+nav {
+  background-color: $black;
+  position: absolute !important;
+  width: 100%;
+  z-index: 999;
+
+  ul {
+    li {
+      padding-right: 14px;
+
+      a {
+        color: $white !important;
+        font-size: 18px !important;
+      }
+
+      a.home {
+        font-size: 24px !important;
+        padding: 0;
+      }
+    }
+  }
+
+  button {
+    background-color: $themeColor !important;
+    color: $white !important;
+    border: none !important;
+  }
+}

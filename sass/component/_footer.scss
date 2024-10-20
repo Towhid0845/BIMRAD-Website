@@ -1,0 +1,135 @@
+@import "../variable/color";
+
+
+footer {
+  padding-top: 80px;
+
+  .footer-bg {
+    background-color: $black;
+    padding: 60px 0 0px 0;
+
+    .footer-title {
+      padding-bottom: 30px;
+
+      h4 {
+        font-size: 26px;
+        font-weight: 600;
+        color: $white;
+      }
+    }
+
+    .footer-about {
+      p {
+        color: $white;
+        line-height: 26px;
+        padding-right: 50px;
+      }
+
+      .icon {
+        padding-top: 20px;
+
+        ul {
+          li {
+            display: inline-block;
+            margin-right: 4px;
+
+            a {
+              width: 30px;
+              height: 30px;
+              background-color: transparent;
+              border: 1px solid $white;
+              color: $white;
+              text-align: center;
+              line-height: 30px;
+              border-radius: 50%;
+              font-size: 13px;
+              transition: all linear .2s;
+
+              &:hover {
+                background-color: $themeColor;
+                border-color: $themeColor;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .quick-links {
+      ul {
+        li {
+          a {
+            color: $white;
+            margin-bottom: 14px;
+            transition: all linear .2s;
+
+            &:hover {
+              color: $themeColor;
+            }
+
+            i {
+              font-size: 12px;
+            }
+          }
+        }
+      }
+    }
+
+    .contact {
+      ul {
+        margin-bottom: 24px;
+
+        li {
+          color: $white;
+        }
+
+        li.icon {
+          width: 30px;
+        }
+
+        li.text {
+          max-width: 200px;
+        }
+      }
+    }
+
+    .address {
+      ul {
+        margin-bottom: 24px;
+
+        li {
+          color: $white;
+        }
+
+        li.icon {
+          margin-right: 20px;
+        }
+
+        li.text {
+          line-height: 30px;
+        }
+      }
+    }
+
+
+
+  }
+
+  .footer-bottom {
+    border-top: 1px solid $white;
+    margin-top: 20px;
+
+    p {
+      color: $white;
+      padding: 20px 0;
+
+      span {
+        color: $lightThemeColor;
+      }
+
+      a {
+        color: $lightThemeColor;
+      }
+    }
+  }
+}

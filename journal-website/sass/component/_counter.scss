@@ -1,0 +1,26 @@
+@import "../variable/color";
+
+.counter {
+  padding-top: 80px;
+
+  .counter-bg {
+    width: 100%;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    padding: 80px 0;
+
+    h4 {
+      font-size: 56px;
+      font-weight: 600;
+      color: $white;
+    }
+
+    p {
+      font-size: 24px;
+      font-weight: 500;
+      color: $white;
+      padding-top: 14px;
+    }
+  }
+}
